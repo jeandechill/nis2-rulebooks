@@ -8,14 +8,12 @@ footnotes-pretty: true
 toc-own-page: true
 colorlinks: true
 header-includes:
-  - \usepackage{titlesec}
   - \usepackage[table]{xcolor}
   - \definecolor{lightgray}{gray}{0.95}
   - \let\OldLongtable\longtable
   - \let\OldEndLongtable\endlongtable
   - \renewenvironment{longtable}{\rowcolors{1}{white}{lightgray}\OldLongtable}{\OldEndLongtable}
   - \newcounter{none}
-  - \newcommand{\sectionbreak}{\clearpage}
 ---
 
 # Operational guidance for incident handling
