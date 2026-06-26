@@ -1,5 +1,7 @@
 # NIS2 Incident Rulebooks
 
+## Scope and disclaimer
+
 These rulebooks are solely intended to be used as a practical guidance by an entity facing a cyberse‑curity incident and looking for immediate assistance from the competent authorities and the Computer Security Incident Response Teams (“CSIRT”). They have been written by a joint team of experts of the High Commission for National Protection (“HCPN”), acting in its role as the Agence Nationale de la Sécurité des Systèmes d’Information (“ANSSI”) and as the Governmental Computer Security Incident Response Team (“GOVCERT.LU”), the Computer Incident Response Center Luxembourg (“CIRCL”), the Commission de Surveillance du Secteur Financier (“CSSF”), and of the Institut Luxembourgeois de Régulation (“ILR”), in the context of 14(5) of the Loi du 5 mai 2026 concernant des mesures destinées à assurer un niveau élevé de cybersécurité (“NIS2 Law”), and in accordance with the missions assigned to the HCPN in its role as ANSSI under Article 3, paragraph 1ter, of the Loi modifiée du 23 juillet 2016 portant création du Haut‑Commissariat à la Protection nationale.
 
 These rulebooks must not be used as a substitute for any policies or procedures in force at the entities.
@@ -11,21 +13,6 @@ This repository contains the rulebooks in source format and PDF format.
 The goal of this repository is to provide practical, reusable, and maintainable documentation for organisations, authorities, CSIRTs, and other stakeholders involved in cybersecurity incident preparedness, response, reporting, and coordination.
 
 The rulebooks are written in Markdown to make them easy to read, review, version, translate, reuse, and maintain over time.
-
-## Scope
-
-This repository focuses on practical guidance related to:
-
-* Incident detection, qualification, triage, and escalation
-* Coordination with competent authorities and CSIRTs
-* Communication during cybersecurity incidents
-* Technical and organisational measures for incident response
-* Post-incident review and lessons learned
-* Templates, checklists, and operational playbooks
-
-The content is intended to support the NIS2 community in Luxembourg and, where relevant, the broader NIS2 and CSIRT communities.
-
-This repository does not provide legal advice. Organisations should always refer to the applicable laws, regulations, official guidance, and competent authorities in their jurisdiction.
 
 ## Maintainers
 
@@ -168,14 +155,6 @@ This includes:
 * Confidential communication with authorities or CSIRTs
 
 If you believe that sensitive information needs to be shared with the maintainers, use the appropriate trusted or official communication channel instead of this public repository.
-
-## Disclaimer
-
-The material in this repository is provided for informational and operational guidance purposes.
-
-It does not replace legal advice, regulatory decisions, official notifications, or formal instructions from competent authorities.
-
-Organisations remain responsible for understanding and fulfilling their own legal, regulatory, contractual, and operational obligations.
 
 ## Contact
 
