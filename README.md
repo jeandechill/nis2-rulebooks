@@ -14,6 +14,32 @@ The goal of this repository is to provide practical, reusable, and maintainable 
 
 The rulebooks are written in Markdown to make them easy to read, review, version, translate, reuse, and maintain over time.
 
+## Building the PDF locally
+
+To compile the document yourself, install the following requirements:
+
+* [Pandoc](https://pandoc.org/) 3.x
+* A LaTeX distribution that provides XeLaTeX (a full TeX Live installation is the simplest option; on Debian or Ubuntu, install `texlive-full`)
+* The [Eisvogel Pandoc template](https://github.com/Wandmalfarbe/pandoc-latex-template)
+* Bash, to run the build script
+
+Download the latest Eisvogel release from its [releases page](https://github.com/Wandmalfarbe/pandoc-latex-template/releases/latest), extract it, and copy `eisvogel.latex` into Pandoc's local `templates` directory. Create the directory if it does not already exist:
+
+```bash
+mkdir -p ~/.local/share/pandoc/templates
+cp /path/to/extracted/eisvogel.latex ~/.local/share/pandoc/templates/
+```
+
+Pandoc prints its user data directory in `pandoc --version`. Depending on the platform and Pandoc installation, the template directory may instead be `~/.pandoc/templates` (older Unix installations) or `%APPDATA%\pandoc\templates` (Windows). Verify the installation with `pandoc --print-default-data-file templates/eisvogel.latex > /dev/null`.
+
+Then, from the repository root, build the document with:
+
+```bash
+bash tools/build.sh
+```
+
+The script writes the generated PDF to `rulebooks/operational-guidance-incident-handling.pdf`.
+
 ## Maintainers
 
 This repository is maintained by the relevant NIS2 authorities and NIS2 CSIRTs in Luxembourg.
