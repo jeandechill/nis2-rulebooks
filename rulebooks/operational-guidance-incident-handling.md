@@ -24,7 +24,7 @@ header-includes:
 
 **Date:** 19 Juin 2026
 
-## Authors
+**Authors:**
 
 - Agence Nationale de la Sécurité des Systèmes d’Information (ANSSI)
 - Commission de Surveillance du Secteur Financier (CSSF)
@@ -41,18 +41,6 @@ These rulebooks must not be used as a substitute for any policies or procedures 
 
 These rulebooks do not address the legal obligations to be fulfilled by the concerned entities (e.g., file a complaint, notification of incidents to the CSSF, the ILR, and the Commission Nationale pour la Protection des Données (CNPD), etc.).
 
-## Contents
-
-- Rulebook 0 – Triage & Routing
-- Rulebook 1 – Denial of Service (DoS) & Distributed Denial of Service (DDoS)
-- Rulebook 2 – Malware
-- Rulebook 3 – Exploitation of communication channels to gain access
-- Rulebook 4 – Credential theft & account compromise
-- Rulebook 5 – Vulnerability exploitation
-- Rulebook 6 – Insider threat
-- Rulebook 7 – Data exfiltration
-- Rulebook 8 – Package compromission & supply chain attack
-- Glossary
 
 ## Rulebook 0 – Triage & Routing
 
