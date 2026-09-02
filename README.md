@@ -44,7 +44,8 @@ The script writes the generated PDF to `rulebooks/operational-guidance-incident-
 
 Clone git repo
 
-```git clone -c core.autocrlf=false https://github.com/nis2-rulebooks/nis2-rulebooks.git
+```bash
+git clone -c core.autocrlf=false https://github.com/nis2-rulebooks/nis2-rulebooks.git
 cd nis2-rulebooks
 ```
 
